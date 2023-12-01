@@ -10,6 +10,7 @@ Relatório 01 - Escalonamento com Cheddar
 
 1-
 ![imagem 1 do primeiro exercicio](images/ex01-1.png)
+
 2 - Sim, é possível ver variação, pois o método utilizado utiliza prioridade e isso aumenta as chances de variação pois uma tarefa pode interferir na execução da outra dependendo da prioridade de cada uma. O menor tempo de resposta ocorrerá quando a task mais rápida de ser executada for completa sem interrupções, dessa forma ela não ficará incompleta ou não será pausada e terminará no menor tempo possível.
 
 5-
