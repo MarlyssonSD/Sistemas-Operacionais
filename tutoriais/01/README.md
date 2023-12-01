@@ -15,20 +15,24 @@ Relatório 01 - Escalonamento com Cheddar
 
 5-
 ![imagem 5 do primeiro exercicio](images/ex01-5.png)
+
 Desta vez não houve perdas.
 
 ### Exercício 2
 
 5-
 ![imagem 5 do segundo exercicio](images/ex02-5.png)
+
 Em T3 pois é interrompido pelo ciclo de T2. No tempo 8 por exemplo inicia mais um ciclo de T2 porém no instante 10 precisa iniciar o T3 e há esse choque pois T2 é finalizado primeiro e após seu término, T3 é executado.
 
 7-
 ![imagem 7 do segundo exercicio](images/ex02-7.png)
+
 Dessa vez a tarefa T1 não interfere como no exemplo anterior, T1 é executada 1 tempo após o período padrão definido, dando assim espaço para T3 ser finalizada. Mas no tempo 31 ainda ocorre interrupção e aí ocorre o pior tempo e novamente em T3 pois demora mais do que o seu período definido para terminar seu ciclo.
 
 10-
 ![imagem 10 do segundo exercicio](images/ex02-10.png)
+
 Sim, T1 e T2 se chocaram, ambos começam um novo ciclo em 16, fazendo com o que haja perdas.
 
 ### Exercício 3
@@ -40,6 +44,7 @@ Sim, T1 e T2 se chocaram, ambos começam um novo ciclo em 16, fazendo com o que 
 
 7-
 ![imagem 7 do exercicio 3](images/ex03-7.png)
+
 Os piores momentos são aqueles mais fragmentado e distante uns dos outros, em T2 o ciclo 2 é o pior e em T1 o antepenúltimo e último ciclo são os piores. Nesse método não ocorre perdas, as tasks estão bem divindades e encaixadas.
 
 8- Pode-se concluir que dependendo do método utilizado para o escalonamento, vários resultados são obtidos, no ex1 as tasks não são fragmentadas e no ex2 são e dessa forma há uma atenção melhor dividida entre as tarefas. Ambas possuem os mesmos períodos em que não executam nenhuma task mas enquanto o último exemplo divide as tarefas em várias partes e processa de forma fragmentada, o primeiro não executa assim.
